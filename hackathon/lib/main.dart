@@ -1,5 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+  
+
+
 
 void main() => runApp(MyApp());
 
@@ -21,6 +24,28 @@ class MyHomePage extends StatelessWidget {
         title: Text('        Say No to bullying!     '),
         backgroundColor: Colors.blueGrey,
       ),
+      body: ListView(
+        scrollDirection: Axis.vertical,
+        children: <Widget>[
+          Padding(padding: const EdgeInsets.all(16.0),
+          child:Container(
+            child:FittedBox(
+            child: Material(color: Colors.blue,elevation: 14.0,borderRadius: BorderRadius.circular(24.0),shadowColor: Color(0x802196F3) ,
+            child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,children: <Widget>[
+            
+            ],)
+            
+            )
+            
+            )
+          )
+          )
+          
+         
+        ]
+      ),
+
+      
     floatingActionButton: FloatingActionButton(
         onPressed: (){
           print("Action");
