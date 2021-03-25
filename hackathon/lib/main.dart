@@ -25,23 +25,23 @@ class MyHomePage extends StatelessWidget {
         backgroundColor: Colors.blueGrey,
       ),
       body: ListView(
-        scrollDirection: Axis.vertical,
         children: <Widget>[
-          Padding(padding: const EdgeInsets.all(16.0),
-          child:Container(
-            child:FittedBox(
-            child: Material(color: Colors.blue,elevation: 14.0,borderRadius: BorderRadius.circular(24.0),shadowColor: Color(0x802196F3) ,
-            child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,children: <Widget>[
-            
-            ],)
-            
-            )
-            
+          FittedBox(
+            fit: BoxFit.scaleDown,
+            alignment: Alignment.center,
+            child:Container(
+              child:Row(children:<Widget> [
+                Container(
+                  width: 414.0,
+                  height:300.0,
+                  color: Colors.blue,
+                  
+
+                ),
+                Container(child:Text("Sample"))
+              ],)
             )
           )
-          )
-          
-         
         ]
       ),
 
