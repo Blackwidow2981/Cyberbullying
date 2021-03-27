@@ -6,7 +6,6 @@ In One year alone, Cyberbullying of Indian Women and teenagers rose by 36%.This 
 2. The Relief Bot acts as a companion in times of distress to a victim of cyberbullying.
 3. The Sidebar has a Information Page that creates awarness about cyberbullying and also contains the required Helpline numbers for the same.
 
-<br>
 ## Installation Instructions<br>
 ### For the Data Model
 `pip install nltk`<br>
