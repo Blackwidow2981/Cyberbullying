@@ -16,7 +16,7 @@ In One year alone, Cyberbullying of Indian Women and teenagers rose by 36%.This 
 `pip install numpy`<br>
 `pip install pickle-mixin`<br>
 ### For the Application
-Just Download the hackathon folder and get all the packages used in the **Pubspec.yaml** file.
+Transfer the release APK folder to your mobile and you can view the application.
 ## Known Bugs 
 The integration of the data model and the application is not yet completed.(The data model is predicting the output and the application  chatbot are working independently.)
 ## Technology Stack
