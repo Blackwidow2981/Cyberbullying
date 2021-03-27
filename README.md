@@ -1,5 +1,17 @@
 # Cyberbullying
-How will this project help<br>
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.unicef.org%2Fend-violence%2Fhow-to-stop-cyberbullying&psig=AOvVaw2OxmsoqJ9V5m6IDCBEX_06&ust=1616952387712000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjOm5v_0O8CFQAAAAAdAAAAABAV" width="400" height="250" />
+## ow will this project help?
 In One year alone, Cyberbullying of Indian Women and teenagers rose by 36%.This project will be of help to all the people who face cyberbullying on online forums like Twitter.The application is extremely simple in its use, It first connects your twitter account to our application and all the tweets that you have been tagged in will be visible on the home page of our application.The Application has a relief BOT that will be activated if our in-built data model detects any kind of hate speech with respect to the user and marks it as spam.This application in a nut shell will help all the victims of cyber bullying by avoiding the hate speech being displayed and also provide them relief.<br> 
-
+Features<br>
+1.The in-built data model identifies hate speech and marks such tweet as spam.
+2.The Relief Bot acts as a companion in times of distress to a victim of cyberbullying.
+3.The Sidebar has a Information Page that creates awarness about cyberbullying and also contains the required Helpline numbers for the same.
+<br>
+Installation Instructions<br>
+### For the Data Model
+`pip install nltk`
+`pip install flask`
+`pip install sklearn`
+`pip install preprocessor`
+`pip install pandas`
+`pip install numpy`
+`pip install pickle-mixin`
